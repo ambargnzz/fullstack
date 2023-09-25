@@ -1,0 +1,104 @@
+/* html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+
+esto permite conseguir 10px = 1REM
+sin eso 16px = 1REM */
+
+h1{ /* selector  */
+    color: red; 
+    /* propiedad y valor */
+    background-color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    border: 30px solid black;
+    /* max-width: 100%;
+    font-size: 7em; */
+}
+
+
+.h5azul{
+    color: white;
+    background-color: rgba(12, 12, 142, 0.517);
+}
+
+#parrafo-rojo{ 
+    color: rgb(249, 247, 247);
+    background-color:red;
+}
+
+.section-prueba h3{ /* selector de cadena descendiente */
+    color: black;
+    background-color: green;
+}
+
+
+
+
+
+/* EJERCICIO 2.1 */
+#ejercicio-2 .saludo{
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+#ejercicio-2 #despedida{
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+/* EJERCICIO 2.2 */
+
+h6{
+    color: blue;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+/* Ejercicio 3.3 */
+.cadena-elementos, p{
+    color: green;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+/* Ejercicio 3.4 */
+[src="img/up-top.png"]{
+    height: 200px;
+    width: 40%;
+    text-align: center;
+    background-color: blue;
+}
+
+
+/* Ejercicio 3.5 */
+.enlaces > a{
+    color: purple;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+.enlaces{
+    margin-bottom: 2000px;
+}
+
+
+/* Ejercicio 3.6 SELECTOR MÚLTIPLE */
+#ejercicio-2 , [src="img/up-top.png"]{
+    background-color: green;
+
+}
+
+
+
+
